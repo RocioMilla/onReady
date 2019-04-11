@@ -1,12 +1,12 @@
 package com.onready;
 import java.math.BigDecimal;
 
-public class Vehículo {
+public class Vehiculo {
     private String marca;
     private String modelo;
     private BigDecimal precio;
 
-    public Vehículo(String marca, String modelo, BigDecimal precio) {
+    public Vehiculo(String marca, String modelo, BigDecimal precio) {
         setMarca(marca);
         setModelo(modelo);
         setPrecio(precio);
