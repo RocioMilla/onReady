@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c831f06a-f0e7-4752-8a39-5eaa4251f513" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/onReady/com/onready/Concesionaria.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/onready/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/onready/Auto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/onready/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/onready/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/onready/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/onready/Moto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/onready/Vehículo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/onready/Vehiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/onready/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/onready/Vehiculo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,10 +24,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/onready/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="158">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
-                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#547#557#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,21 +36,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/onready/Vehiculo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="66" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="66" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/onready/Auto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="221">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
               <folding>
                 <element signature="e#555#556#0" expanded="true" />
                 <element signature="e#585#586#0" expanded="true" />
@@ -74,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/onready/Moto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="238">
+              <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
               <folding>
                 <element signature="e#213#214#0" expanded="true" />
                 <element signature="e#246#247#0" expanded="true" />
@@ -103,9 +97,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/onready/Concesionaria.java" />
         <option value="$PROJECT_DIR$/src/com/onready/Vehículo.java" />
+        <option value="$PROJECT_DIR$/src/com/onready/Auto.java" />
+        <option value="$PROJECT_DIR$/src/com/onready/Vehiculo.java" />
         <option value="$PROJECT_DIR$/src/com/onready/Main.java" />
         <option value="$PROJECT_DIR$/src/com/onready/Moto.java" />
-        <option value="$PROJECT_DIR$/src/com/onready/Auto.java" />
       </list>
     </option>
   </component>
@@ -163,7 +158,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.onready.Main" />
       <module name="onReady" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -189,7 +184,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -210,14 +204,14 @@
     <frame x="-8" y="-8" width="1312" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531949" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2531949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32872504" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -225,7 +219,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32872504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -237,39 +231,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/onready/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="158">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
-            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#547#557#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/onready/Vehiculo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="66" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="66" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/onready/Moto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="238">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
           <folding>
             <element signature="e#213#214#0" expanded="true" />
             <element signature="e#246#247#0" expanded="true" />
@@ -281,8 +269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/onready/Auto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="221">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding>
             <element signature="e#555#556#0" expanded="true" />
             <element signature="e#585#586#0" expanded="true" />

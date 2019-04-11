@@ -1,16 +1,16 @@
 package com.onready;
-import java.math.BigDecimal;
 
-public class Vehiculo {
+public abstract class Vehiculo {
     private String marca;
     private String modelo;
-    private BigDecimal precio;
+    private String precio;
 
-    public Vehiculo(String marca, String modelo, BigDecimal precio) {
+    public Vehiculo(String marca, String modelo, String precio) {
         setMarca(marca);
         setModelo(modelo);
         setPrecio(precio);
     }
+    abstract public String showDetails();
 
     //getter setters
     public String getMarca() {
@@ -29,11 +29,11 @@ public class Vehiculo {
         this.modelo = modelo;
     }
 
-    public BigDecimal getPrecio() {
+    public String getPrecio() {
         return precio;
     }
 
-    public void setPrecio(BigDecimal precio) {
+    public void setPrecio(String precio) {
         this.precio = precio;
     }
 }
