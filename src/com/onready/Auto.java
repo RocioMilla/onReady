@@ -5,14 +5,14 @@ import java.math.BigDecimal;
 public class Auto extends Vehiculo {
     private Integer puertas;
 
-    public Auto(String marca, String modelo, String precio, Integer puertas) {
+    public Auto(String marca, String modelo, Double precio, Integer puertas) {
         super(marca, modelo, precio);
         setPuertas(puertas);
     }
     public String showDetails(){
         String marca = getMarca();
         String modelo = getModelo();
-        String precio = getPrecio();
+        Double precio = getPrecio();
         Integer puertas = getPuertas();
         return "Marca: " + marca + " // Modelo: " + modelo + " //Puertas: "+ puertas + " // Precio: $" + precio;
     }

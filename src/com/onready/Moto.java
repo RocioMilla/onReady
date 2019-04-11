@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 public class Moto extends Vehiculo {
     private String Cilindrada;
 
-    public Moto(String marca, String modelo, String precio,String cilindrada) {
+    public Moto(String marca, String modelo, Double precio,String cilindrada) {
         super(marca, modelo, precio);
         setCilindrada(cilindrada);
     }
@@ -13,7 +13,7 @@ public class Moto extends Vehiculo {
     public String showDetails(){
         String marca = getMarca();
         String modelo = getModelo();
-        String precio = getPrecio();
+        Double precio = getPrecio();
         String cilindrada = getCilindrada();
         return "Marca: " + marca + " // Modelo: " + modelo + " // Cilindrada: "+ cilindrada + " // Precio: $" + precio;
     }
