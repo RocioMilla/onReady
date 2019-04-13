@@ -1,6 +1,7 @@
 package com.onready;
 
-import java.math.BigDecimal;
+import java.text.NumberFormat;
+import java.util.Locale;
 
 public abstract class Vehiculo {
     private String marca;
@@ -14,7 +15,14 @@ public abstract class Vehiculo {
     }
     abstract public String showDetails();
 
-    //getter setters
+    public String getPrecioArgentina(){
+        Locale argentinaLocale = new Locale("es", "AR");
+        NumberFormat argentina  = NumberFormat.getCurrencyInstance(argentinaLocale);
+        Double precio = getPrecio();
+        String precioArgentina = argentina.format(precio);
+        return precioArgentina;
+    }
+
     public String getMarca() {
         return marca;
     }
@@ -38,4 +46,5 @@ public abstract class Vehiculo {
     public void setPrecio(Double precio) {
         this.precio = precio;
     }
+
 }

@@ -1,7 +1,5 @@
 package com.onready;
 
-import java.math.BigDecimal;
-
 public class Moto extends Vehiculo {
     private String Cilindrada;
 
@@ -13,11 +11,10 @@ public class Moto extends Vehiculo {
     public String showDetails(){
         String marca = getMarca();
         String modelo = getModelo();
-        Double precio = getPrecio();
+        String precio = getPrecioArgentina();
         String cilindrada = getCilindrada();
-        return "Marca: " + marca + " // Modelo: " + modelo + " // Cilindrada: "+ cilindrada + " // Precio: $" + precio;
+        return "Marca: " + marca + " // Modelo: " + modelo + " // Cilindrada: "+ cilindrada + " // Precio: " + precio;
     }
-    //getter and setter
 
     public String getCilindrada() {
         return Cilindrada;
